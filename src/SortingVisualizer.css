@@ -1,0 +1,31 @@
+:root{
+	--menuBarHeight: 10vh;
+}
+
+.menuBar{
+	width: 100vw;
+	height: var(--menuBarHeight);
+	background-color: #289bde;
+}
+
+.sortItemContainer{
+	--padding: 30px;
+
+	padding: var(--padding);
+
+	width: calc(100vw - var(--padding)*2);	
+	height: calc(100vh - var(--menuBarHeight) - var(--padding)*2);
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.sortItem{
+	background-color: red;
+	width: 1vw;
+	height: 5px;
+	
+	margin: 0 3px;
+
+	display: inline-block;
+}
